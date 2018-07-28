@@ -50,6 +50,7 @@ p {
 }
 
 .caption {
+  opacity: 0.75;
   color: black;
   background-color: white;
   display: block;
