@@ -10,6 +10,7 @@ body {
 }
 
 h1 {
+  text-align: center;
   text-transform: uppercase;
   color: white;
   font-size: 28px;
