@@ -5,6 +5,8 @@ header, footer {
 }
 
 main {
+  align-content: center;
+  height: 1600px;
   align-items: stretch;
   justify-content: center;
   justify-items: center;
