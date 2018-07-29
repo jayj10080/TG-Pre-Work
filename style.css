@@ -5,6 +5,7 @@ header, footer {
 }
 
 main {
+  align-items: stretch;
   justify-content: center;
   justify-items: center;
   display: grid;
