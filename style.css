@@ -5,6 +5,7 @@ header, footer {
 }
 
 main {
+  grid-auto-flow: column;
   display: grid;
   grid-template-columns: 250px 250px;
   grid-template-rows: repeat(3, 450px);
