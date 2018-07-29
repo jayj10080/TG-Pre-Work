@@ -99,6 +99,7 @@ a.home {
 /* Font Card Sections */
 
 .font-card {
+  font-style: italic;
   background-color: #ffffff;
   margin: 50px 0;
   padding: 20px 50px;
