@@ -1,2 +1,4 @@
-let changeMe = false;
-console.log(changeMe);
+var notDefined;
+console.log(notDefined);
+var valueless;
+console.log(valueless);
