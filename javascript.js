@@ -1,7 +1,14 @@
+var orderCount = 0;
 const takeOrder = (topping, crustType) => {
+  orderCount++;
   console.log('Order: ' + crustType + ' pizza topped with ' + topping);
+  console.log(getSubTotal(orderCount));
 };
 
-takeOrder('mushrooms', 'thin crust');
-takeOrder('pineapple', 'thick crust');
-takeOrder('olives', 'medium crust');
+const getSubTotal = (itemCount) => {
+  return itemCount * 7.5;
+}
+
+takeOrder('mushroom', 'thin crust');
+takeOrder('spinach', 'whole wheat');
+takeOrder('pepperoni', 'brooklyn style');
