@@ -1,3 +1,6 @@
-var myName = "Jay";
-var myCity = "Boulder";
-console.log(`My name is ${myName}. My favorite city is ${myCity}.`)
+var isSoccerFan = false;
+if (isSoccerFan === true) {
+  console.log('Goal!');
+} else {
+  console.log('No goal!');
+}
