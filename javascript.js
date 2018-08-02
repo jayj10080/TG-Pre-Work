@@ -1,11 +1,10 @@
-const visibleLightWaves = () => {
-  let lightWaves = 'Moonlight';
-  let region = 'The Arctic';
-  if (region === 'The Arctic') {
-    let lightWaves = 'Northern Lights';
-    console.log(lightWaves);  
+const starCount = () => {
+  let i = 5;
+  for (i = 0; i < 12; i++) {
+    console.log(i);
   }
-  console.log(lightWaves);
-};
+  console.log(i);
+}
 
-visibleLightWaves();
+starCount();
+console.log(i);
