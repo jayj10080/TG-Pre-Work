@@ -1,3 +1,2 @@
-let bucketList = ['Rappel into a cave', 'Take a falconry class', 'Learn to juggle'];
-
-console.log(bucketList);
+var newYearsResolutions = ["Eat", "Drink", "Sleep"];
+console.log(newYearsResolutions);
