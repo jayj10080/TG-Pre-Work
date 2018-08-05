@@ -14,6 +14,12 @@ let person = {
   
 };
 
+let friend = {
+  name: 'Andrew'
+}
+
+friend.sayHello = person.sayHello;
+
 console.log(person.sayHello());
 
 person.hobbies = ['Basketball', 'Coaching'];
@@ -34,3 +40,4 @@ if (day === 'Saturday' || day === 'Sunday' ) {
 }
 
 console.log(person[alarm]);
+console.log(friend.sayHello());
