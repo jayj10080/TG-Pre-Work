@@ -4,6 +4,9 @@ let person = {
   weekendAlarm: 'No alarms needed',
   weekAlarm: 'Alarm set to 7AM'
 };
+person.hobbies = ['Music', 'Coding'];
+console.log(person.hobbies);
+
 
 console.log(person['name']);
 console.log(person['age']);
