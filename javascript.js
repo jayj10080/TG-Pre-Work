@@ -1,13 +1,5 @@
-let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+let vacationSpots = ['Mozambique', 'Thailand', 'Bolivia'];
 
-const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
-
-condiments.push('Mayo');
-
-condiments = ['Sriracha'];
-
-console.log(condiments);
-
-utensils.pop();
-
-utensils = ['Spork'];
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
