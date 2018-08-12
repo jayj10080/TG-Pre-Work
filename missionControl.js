@@ -1,4 +1,4 @@
-import {availableAirplanes, flightRequirements, meetsStaffRequirements} from './airplane';
+import {availableAirplanes, flightRequirements, meetsStaffRequirements, meetsSpeedRangeRequirements} from './airplane';
 
 function displayFuelCapacity() {
   availableAirplanes.forEach(function(element) {
@@ -14,4 +14,11 @@ function displayStaffStatus() {
   });
 }
 
+function displaySpeedRangeStatus() {
+  availableAirplanes.forEach(function(element) {
+    console.log(element.name + 'meets speed range requirements: ' + meetsSpeedRangeRequirements(element.maxSpeed, element.minSpeed, flightRequirements.requiredSpeedRange));
+  });
+}
+
 displayStaffStatus();
+displaySpeedRangeStatus();
