@@ -1,45 +1,10 @@
-class HospitalEmployee {
-  constructor(name) {
-    this._name = name;
-    this._remainingVacationDays = 20;
-  }
-  
-  get name() {
-    return this._name;
-  }
-  
-  get remainingVacationDays() {
-    return this._remainingVacationDays;
-  }
-  
-  takeVacationDays(daysOff) {
-    this._remainingVacationDays -= daysOff;
-  }
-  
-  static generatePassword() {
-    return Math.floor(Math.random() * 10000);
-  }
-}
+var pasta = "Spaghetti"; // ES5 syntax
 
-class Nurse extends HospitalEmployee {
-  constructor(name, certifications) {
-    super(name);
-    this._certifications = certifications;
-  } 
-  
-  get certifications() {
-    return this._certifications;
-  }
-  
-  addCertification(newCertification) {
-    this.certifications.push(newCertification);
-  }
-}
+const meat = "Pancetta"; // ES6 syntax
 
-const nurseOlynyk = new Nurse('Olynyk', ['Trauma','Pediatrics']);
-nurseOlynyk.takeVacationDays(5);
-console.log(nurseOlynyk.remainingVacationDays);
-nurseOlynyk.addCertification('Genetics');
-console.log(nurseOlynyk.certifications);
+let sauce = "Eggs and cheese"; // ES6 syntax
+
+// Template literals, like the one below, were introduced in ES6
+const carbonara = `You can make carbonara with ${pasta}, ${meat}, and a sauce made with ${sauce}.`;
 
 
